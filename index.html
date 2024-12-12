@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de Historias</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Juego de Historias</h1>
+    <p>Genera cada parte de la historia</p>
+
+    <div>
+      <button onclick="generarIntroduccion()">Generar Introducción</button>
+      <div id="introduccion" class="section celeste">
+        Aprieta el boton y diviertete creado tu propio cuento
+      </div>
+    </div>
+
+    <div>
+      <button onclick="generarNudo()">Generar Nudo</button>
+      <div id="nudo" class="section amarillo">
+        Aprieta el boton y diviertete creado tu propio cuento.
+      </div>
+    </div>
+
+    <div>
+      <button onclick="generarDesenlace()">Generar Desenlace</button>
+      <div id="desenlace" class="section rosado">
+        Aprieta el boton y diviertete creado tu propio cuento
+      </div>
+    </div>
+
+    <button onclick="unirHistoria()">Unir Historia</button>
+    <div id="historia">
+      <!-- La historia completa aparecerá aquí -->
+    </div>
+
+    <script src="scritpt.js"></script>
+  </body>
+</html>
